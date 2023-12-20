@@ -1,0 +1,22 @@
+.card {
+  width: 354px;
+  height: 310px;
+  border: none;
+}
+.heading {
+  color: var(--Black, #000);
+  font-family: Apercu Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+.idname {
+  color: var(--Secondary-gray, #999faa);
+  /* Details 16/20 */
+  font-family: Apercu Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height:0px;
+}

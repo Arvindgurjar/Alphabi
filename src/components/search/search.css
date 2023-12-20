@@ -1,0 +1,16 @@
+button {
+  padding:4px 8px;
+  align-items: center;
+  border-radius: 12px;
+  background: var(--Black, #000);
+  color: aliceblue;
+}
+.input{
+    width:60%;
+    margin: 0 2px;
+    padding:2px 0px;
+    border-radius: 12px;
+    background: var(--Page-background, #E8EAEE);
+    color: black;
+}
+

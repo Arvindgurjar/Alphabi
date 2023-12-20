@@ -1,0 +1,24 @@
+.pagination-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination-container ul li{
+    padding: 8px;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+}
+.active-page{
+    background-color: rgb(243, 220, 229);
+    border-bottom: 5px solid rgb(242, 72, 34);
+}
+.pagesText {
+  color: var(--not-black, #272727);
+  /* Numbers */
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}

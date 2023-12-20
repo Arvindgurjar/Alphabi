@@ -1,0 +1,7 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
