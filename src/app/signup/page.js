@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react'
 import { FaRegEyeSlash, FaRegEye } from "react-icons/fa";
-import { createUserWithEmailAndPassword, updateProfile, onAuthStateChanged } from "firebase/auth";
+import { createUserWithEmailAndPassword, updateProfile, onAuthStateChanged, signOut } from "firebase/auth";
 import { auth } from "../../config/config"
 import { useRouter } from 'next/navigation';
 const Page = () => {
@@ -31,6 +31,7 @@ const Page = () => {
           fname: signUpData.fname,
           lname: signUpData.lname
         })
+        signOut(auth);
         router.push("/login");
       })
       .catch((err) => { setError(err.message) })
