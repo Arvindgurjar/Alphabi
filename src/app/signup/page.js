@@ -74,7 +74,7 @@ const Page = () => {
               <small style={{ fontWeight: "bolder", color: "red" }}>{error}</small>
             </div>
             <div className='my-4 text-center'>
-              <button type='submit' className='btn btn-dark w-100' >Register & Login</button>
+              <button type='submit' className='btn btn-dark w-100' >Register</button>
               <Link href="/login"><p className='mt-3'>Already Register</p></Link>
             </div>
           </form>
